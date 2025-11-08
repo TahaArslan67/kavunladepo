@@ -62,7 +62,7 @@
                                     <p class="testimonial-one__text-2"><?=$goster["aciklama"]?></p>
                                     <div class="testimonial-one__client-info">
                                         <div class="testimonial-one__client-img">
-                                            <img src="<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
+                                            <img src="resimler/<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
                                         </div>
                                         <div class="testimonial-one__content">
                                             <h3 class="testimonial-one__client-name"><?=$goster["adi"]?></h3>
