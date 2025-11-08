@@ -43,7 +43,7 @@
                    foreach($cek as $goster){
                    ?>
                         <div class="swiper-slide">
-                            <img src="resimler/<?=$goster["resim"]?>" alt="">
+                            <img src="<?=$goster["resim"]?>" alt="">
                         </div>
                         
                         <?php }?>

@@ -11,7 +11,7 @@
                     <div class="col-xl-2 col-lg-4 col-md-6">
                         <div class="instagram__single">
                             <div class="instagram__img">
-                                <img src="resimler/<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
+                                <img src="<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
                                 <div class="instagram__img-icon">
                                     <a href="#"><span class="fab fa-instagram"></span></a>
                                 </div>

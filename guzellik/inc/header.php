@@ -1,4 +1,8 @@
- <header class="main-header">
+<?php
+$logoPath = (str_starts_with($logo, 'http') || str_starts_with($logo, 'assets/') || str_starts_with($logo, 'resimler/')) ? $logo : 'resimler/'.$logo;
+$faviconPath = (str_starts_with($favicon, 'http') || str_starts_with($favicon, 'assets/') || str_starts_with($favicon, 'resimler/')) ? $favicon : 'resimler/'.$favicon;
+?>
+ <header class="main-header" id="top">
             <div class="main-header__top">
                 <div class="main-header__top-wrapper">
                     <div class="main-header__top-inner">
@@ -59,11 +63,11 @@
                     <div class="main-menu__wrapper-inner">
                         <div class="main-menu__left">
                             <div class="main-menu__logo">
-                                <a href="./"><img src="resimler/<?=$logo?>" alt="<?=$title?>" width="200"></a>
+                                <a href="./"><img src="<?=$logoPath?>" alt="<?=$title?>" width="200"></a>
                             </div>
                         </div>
                         <div class="main-menu__main-menu-box">
-                            <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
+                                <a href="#" class="mobile-nav__toggler"><i class="fa fa-bars"></i></a>
                             <ul class="main-menu__list">
                                 
                                 <?php

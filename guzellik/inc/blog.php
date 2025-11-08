@@ -13,7 +13,7 @@
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay="300ms">
                         <div class="blog-one__single">
                             <div class="blog-one__img">
-                                <img src="resimler/<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
+                                <img src="<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
                             </div>
                             <div class="blog-one__content">
                                 

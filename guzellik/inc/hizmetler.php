@@ -20,7 +20,7 @@
                                 </div>
                                 <div class="services-one__img-box">
                                     <div class="services-one__img">
-                                        <img src="resimler/<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
+                                        <img src="<?=$goster["resim"]?>" alt="<?=$goster["adi"]?>">
                                     </div>
                                     <div class="services-one__icon">
                                         <span class="icon-lotus"></span>

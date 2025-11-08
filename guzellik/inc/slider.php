@@ -22,7 +22,7 @@
 
                     <div class="swiper-slide">
                         <div class="image-layer"
-                            style="background-image: url(resimler/<?=$goster["resim"]?>);"></div>
+                            style="background-image: url('<?= media_path($goster["resim"]) ?>');"></div>
                         <!-- /.image-layer -->
 
                         <div class="container">
@@ -35,7 +35,7 @@
                                         <p class="main-slider__sub-title"><?=$goster["adi"]?></p>
                                         <h2 class="main-slider__title"><?=$goster["aciklama"]?></h2>
                                         <div class="main-slider__btn-box">
-                                            <a href="<?=$goster["linki"]?>" class="thm-btn main-slider__btn">Tümünü inceleyin</a>
+                                            <a href="<?=$goster["linki"]?>" class="thm-btn main-slider__btn">Randevu Al</a>
                                         </div>
                                     </div>
                                 </div>

@@ -6,7 +6,7 @@
                             <div class="welcome-one__img-box wow slideInLeft" data-wow-delay="100ms"
                                 data-wow-duration="2500ms">
                                 <div class="welcome-one__img">
-                                    <img src="resimler/<?=$hakkimizda["resim"]?>" alt="<?=$hakkimizda["adi"]?>">
+                                    <img src="<?=$hakkimizda["resim"]?>" alt="<?=$hakkimizda["adi"]?>">
                                     <div class="welcome-one__shape-1 float-bob-y">
                                         <img src="assets/images/shapes/welcome-one-shape-1.png" alt="">
                                     </div>
